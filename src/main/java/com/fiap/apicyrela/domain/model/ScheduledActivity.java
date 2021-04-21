@@ -24,5 +24,7 @@ public class ScheduledActivity {
 	private String activityType;
 	private String subject;
 	private boolean finished;
+	@ManyToOne
+	private Technical technical;
 
 }
